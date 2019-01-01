@@ -79,7 +79,7 @@ if (command == "say2") {
 
 
 client.on('ready', () => {
-var x = client.channels.get("462009834171138080");
+var x = client.channels.get("529764289700167690");
 if (x) x.join();
 });
 
@@ -120,7 +120,7 @@ client.on('message', message => {
 
 
 
-
+client.login(process.env.BOT_TOKENN);
 
 
 client.login(process.env.BOT_TOKEN);
