@@ -9,8 +9,8 @@ client.on('ready', () => {
 });
 
 client.on('message', msg => {
-  if (msg.content === '.') {
-    msg.reply('جعل ماينقط غيرك :kissing_heart: ');
+  if (msg.content === 'خالد') {
+    msg.reply('أرحب يالله حية ');
   }
 });
 
@@ -79,7 +79,7 @@ if (command == "say2") {
 
 
 client.on('ready', () => {
-var x = client.channels.get("502797689474383872");
+var x = client.channels.get("462009834171138080");
 if (x) x.join();
 });
 
@@ -95,7 +95,16 @@ client.on('message', msg => {
 });
 	
   
-  
+  /////////////////////////كود عرض البنق/////////////////////////////////////////
+	  
+
+client.on('message', message => {
+    if (message.author.id === client.user.id) return;
+            if (message.content.startsWith(prefix + "ping")) {
+        message.channel.sendMessage(':ping_pong: Pong! In `' + `${client.ping}` + ' ms`');
+    }
+});
+
   
 /////////////////////////////////////////////////////////////////////
 
