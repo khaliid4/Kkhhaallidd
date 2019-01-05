@@ -36,6 +36,45 @@ client.on('message', msg => {
 });
 
 
+client.on('message', msg => {
+  if (msg.content === '@khalid') {
+    msg.reply(' * أطلق من يمنشن ي لباء * ');
+  }
+});
+
+
+client.on('message', msg => {
+  if (msg.content === ' + ') {
+    msg.reply(' * + * ');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === ' + ') {
+    msg.reply(' * + * ');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === ' + ') {
+    msg.reply(' * + * ');
+  }
+});
+
+
+
+client.on('message', msg => {
+  if (msg.content === ' + ') {
+    msg.reply(' * + * ');
+  }
+});
+
+
+
 
 
  //////////////////////////ارسال رسالة في الشات بانبد  وردون /////////////////////////////////////////
